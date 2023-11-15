@@ -1,10 +1,10 @@
 
-if (location.protocol === 'http:' && location.hostname === 'simov.github.io') {
-  location.href = 'https://simov.github.io'
+if (location.protocol === 'http:' && location.hostname === 'MAli82.github.io') {
+  location.href = 'https://MAli82.github.io'
 }
 
 window.addEventListener('DOMContentLoaded', function () {
-  file(config.origin + '/simov/io.html', function (err, body) {
+  file(config.origin + '/MAli82/io.html', function (err, body) {
     document.querySelector('#content').innerHTML = body
     content.links()
     content.icons()
@@ -84,7 +84,7 @@ var content = {
       .forEach(function (link) {
         var url = link.getAttribute('href')
         if (url.indexOf('npmjs') !== -1) {
-          url += '~simov'
+          url += '~MAli82'
         }
         else if (url.indexOf('plus') !== -1) {
           url += '+SimeonVelichkov'
@@ -197,7 +197,7 @@ function soundcloud () {
   })
 
   iframe.src = 'https://w.soundcloud.com/player/?' + [
-    'url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F4403562',
+    'url=http%3A%2F%2Fsoundcloud.com%2Fnigel-stately%2Fsets%2Fdark-edition',
     'color=040403',
     'auto_play=true',
     'show_artwork=true'
